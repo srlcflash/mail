@@ -1,0 +1,54 @@
+@import "../variable";
+
+.green {
+  background: $green !important;
+}
+
+.white {
+  background: $white !important;
+}
+
+//Spacer
+.pt-60 {
+  padding-top: 60px !important;
+}
+
+.pb-60 {
+  padding-bottom: 60px !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+
+//Font Size
+.f-16 {
+  font-size: 16px;
+}
+
+//Text Color Classes
+.black-500 {
+  color: $black-500;
+}
+.black-800 {
+  color: $black-800;
+}
+
+// Body Styles
+body,
+html,
+.body {
+  background: $light-gray !important;
+}
+
+table.container {
+  background: $light-gray;
+}
+
+.footer {
+  background: $green;
+}
