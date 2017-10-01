@@ -9,6 +9,14 @@
 }
 
 //Spacer
+.pt-40 {
+  padding-top: 40px !important;
+}
+
+.pt-50 {
+  padding-top: 50px !important;
+}
+
 .pt-60 {
   padding-top: 60px !important;
 }
@@ -30,12 +38,26 @@
   font-size: 16px;
 }
 
+
+.f-14 {
+  font-size: 14px !important;
+}
+
 //Text Color Classes
 .black-500 {
   color: $black-500;
 }
+
 .black-800 {
   color: $black-800;
+}
+
+.white-300 {
+  color: $white-300;
+}
+
+.dark-blue {
+  color: #303c42 !important;
 }
 
 // Body Styles
@@ -47,6 +69,15 @@ html,
 
 table.container {
   background: $light-gray;
+}
+
+table.button.large table a {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bg-primary {
+  background-color: $primary;
 }
 
 .footer {
